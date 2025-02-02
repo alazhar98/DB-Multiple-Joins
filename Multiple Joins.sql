@@ -77,7 +77,7 @@ on e.department_id = p.department_id;
 
 select p.project_name , d.department_name 
 from departments d 
-left join projects p
+Right join projects p
 on d.department_id = p.department_id;
 
 /* Find all employees along with their department names. Include employees without a department.*/
